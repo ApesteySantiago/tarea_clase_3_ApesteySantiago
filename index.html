@@ -1,36 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="author" content="Apestey Santiago">
-
-    <meta name="description" content="Bienvenido a nuestro gimnasio 24/7 con entrenadores certificados. Descubre nuestras instalaciones, clases, y horarios para alcanzar tus objetivos de salud y fitness. ¡Tu mejor versión empieza hoy!">
-
     <title>PowerZone</title>
+    <meta name="keywords" content="gimnasio, fitness, entrenamiento, salud, bienestar, ejercicios, clases de gimnasio, entrenadores, estilo de vida saludable">
+    <meta name="description" content="Bienvenido a nuestro gimnasio 24/7 con entrenadores certificados. Descubre nuestras instalaciones, clases, y horarios para alcanzar tus objetivos de salud y fitness. ¡Tu mejor versión empieza hoy!">
+    <meta name="author" content="Apestey Santiago">
 
     <link rel="icon" href="src/assets/images/[icono].png" type="image/png">
 
 
 </head>
 <body>
-    
+
     <header>
+
+        <!-- Logo de la página -->
+
+        <div class="logo">
+            <img src="src/assets/images/logo.png" alt="Logo de PowerZone">
+        </div>
+
+        <!-- Navegación -->
+
         <nav>
             <ul>
-                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="./index.html" class="active">Inicio</a></li>
                 <li><a href="src/pages/clases.html">Clases</a></li>
-                <li><a href="src/pages/entrenadores.html">Entrenadores</a></li>
+                <li><a href="src/pages/quienesSomos.html">Quienes Somos</a></li>
                 <li><a href="src/pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    
+
     <main>
 
+        <!-- Sección Home -->
+
+        <section id="home">
+
+            <h1>Bienvenido a Gym PowerZone</h1>
+            <p>
+                En <strong>Gym PowerFit</strong>, estamos dedicados a ayudarte a alcanzar tus objetivos de salud y bienestar. Nuestro gimnasio ofrece una variedad de clases, entrenadores certificados, y las mejores instalaciones para que puedas entrenar a tu propio ritmo. ¡Únete a nuestra comunidad y transforma tu vida!
+              </p>
+              <img src="src/assets/images/gym-presentation.jpg" alt="Imagen de presentación del gimnasio PowerZone.">
+              <a href="src/pages/quienesSomos.html" class="btn-conocenos">¡Conócenos!</a>
+        </section>
+
+        <!-- Sección Instalaciones del Gym  -->
+
+        <section id="instalaciones">
+            <h2>Nuestras Instalaciones</h2>
+            <p>Descubre el equipamiento moderno y las instalaciones de calidad que hacen de PowerZone un lugar único para entrenar.</p>
+            <img src="src/assets/images/instalaciones.jpg" alt="Imagen de las instalaciones.">
+        </section>
+
+        <!-- Sección Testimonios de Clientes  -->
+
+        <section id="testimonios">
+            <h2>Testimonios de Nuestros Clientes</h2>
+            <p>Lee lo que nuestros miembros dicen sobre su experiencia en PowerZone y cómo han logrado sus metas.</p>
+
+            <!-- Tarjeta 1 -->
+
+            <blockquote>
+                <img src="src/assets/images/juanPerez.jpg" alt="Foto perfil de Juan Perez.">
+                <p>"Gracias a PowerZone, logré perder 10 kilos en solo tres meses y gané confianza en mí mismo. ¡El ambiente es genial!"</p>
+                <cite>- Juan Pérez</cite>
+            </blockquote>
+
+            <!-- Tarjeta 2 -->
+
+            <blockquote>
+                <img src="src/assets/images/rominaLandria.jpg" alt="Foto perfil de Romina Landria.">
+                <p>"El enfoque personalizado de los entrenadores en PowerZone me ayudó a superar mis límites y lograr una condición física que nunca creí posible."</p>
+                <cite>- Romina Landria</cite>
+            </blockquote>
+
+            <!-- Tarjeta 3  -->
+
+            <blockquote>
+                <img src="src/assets/images/hugoMersen.jpg" alt="Foto perfil de Hugo Mersen.">
+                <p>"La variedad de clases y la calidad del equipamiento en PowerZone hacen que entrenar aquí sea una experiencia única. ¡No lo cambiaría por nada!"</p>
+                <cite>- Hugo Mersen</cite>
+            </blockquote>
+        </section>
+
+        <!-- Sección Membresias -->
+
+        <section id="membresias">
+            <h2>Membresías y Precios</h2>
+            <p>Elige el plan que mejor se adapte a tus necesidades. Tenemos opciones para todos, desde principiantes hasta expertos.</p>
+            <ul>
+                <li>Membresía Mensual: $50</li>
+                <li>Membresía Trimestral: $135 (10% de descuento)</li>
+                <li>Membresía Anual: $500 (17% de descuento)</li>
+            </ul>
+            <a href="src/pages/contacto.html" class="btn-contacto">¡Contáctanos para más información!</a>
+
+            <!-- Apartado de Cursos Destacados -->
+            <div class="cursos-destacados">
+                <h3>Cursos Destacados</h3>
+                <p>Explora algunos de nuestros cursos más populares:</p>
+                <ul>
+                    <li>Entrenamiento Funcional</li>
+                    <li>Clases de Yoga</li>
+                    <li>CrossFit para Principiantes</li>
+                    <li>Pilates Avanzado</li>
+                </ul>
+                <a href="src/pages/clases.html" class="btn-cursos">Ver todos los cursos</a>
+            </div>
+        </section>
+
+        <!-- Literalmente el Footer -->
+
+        <footer>
+            <div class="footer-content">
+                <div class="logo-footer">
+                    <img src="src/assets/images/logo.png" alt="Logo de PowerZone">
+                </div>
+                <div class="contact-info">
+                    <p>Síguenos en nuestras redes sociales:</p>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                    <p>Teléfono: +123 456 7890</p>
+                    <p>Dirección: Calle Ejemplo 123, Ciudad Ficticia</p>
+                </div>
+            </div>
+            <p>&copy; 2024 PowerZone. Todos los derechos reservados.</p>
+        </footer>
+
     </main>
-    
+
     <footer>
     </footer>
 

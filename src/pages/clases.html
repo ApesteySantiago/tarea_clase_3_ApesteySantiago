@@ -1,29 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="author" content="Apestey Santiago">
-
-    <meta name="description" content="Explora la variedad de clases que ofrecemos en nuestro gimnasio, incluyendo Yoga, HIIT, Spinning, y más. Consulta los horarios y encuentra la clase perfecta para ti.">
-
     <title>PowerZone</title>
+    <meta name="keywords" content="clases de gimnasio, yoga, HIIT, spinning, horarios de clases, entrenamiento en grupo, actividades físicas, clases de fitness">
+    <meta name="description" content="Explora la variedad de clases que ofrecemos en nuestro gimnasio, incluyendo Yoga, HIIT, Spinning, y más. Consulta los horarios y encuentra la clase perfecta para ti.">
+    <meta name="author" content="Apestey Santiago">
     
     <link rel="icon" href="src/assets/images/[icono].png" type="image/png">
-
 
 </head>
 <body>
     <header>
+        
+        <!-- Logo de la página -->
+
+        <div class="logo">
+            <img src="src/assets/images/logo.png" alt="Logo de PowerZone">
+        </div>
+
+        <!-- Navegación -->
+
         <nav>
             <ul>
-                <li><a href="index.html" >Inicio</a></li>
-                <li><a href="src/pages/clases.html" class="active">Clases</a></li>
-                <li><a href="src/pages/entrenadores.html">Entrenadores</a></li>
-                <li><a href="src/pages/contacto.html">Contacto</a></li>
+                <li><a href="../../index.html" >Inicio</a></li>
+                <li><a href="clases.html" class="active">Clases</a></li>
+                <li><a href="quienesSomos.html">Quienes Somos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
+
+    <main>
+
+        <!-- Sección Clases -->
+
+        <section id="clases">
+            <h1>Nuestras Clases</h1>
+            <p>En PowerZone, ofrecemos una amplia gama de clases para todos los niveles de habilidad. Desde relajantes sesiones de Yoga hasta entrenamientos intensivos de HIIT, ¡tenemos algo para todos!</p>
+
+            <!-- Tarjeta con Clase 1 -->
+
+            <div class="clase">
+                <h2>Yoga</h2>
+                <p>Calma tu mente y fortalece tu cuerpo con nuestras clases de Yoga. Ideal para todos los niveles.</p>
+                <p><strong>Horario:</strong> Lunes, Miércoles y Viernes - 9:00 AM a 10:30 AM</p>
+                <img src="src/assets/images/yoga-class.jpg" alt="Clase de Yoga en PowerZone">
+            </div>
+
+            <!-- Tarjeta con Clase 2 -->
+
+            <div class="clase">
+                <h2>HIIT (High-Intensity Interval Training)</h2>
+                <p>Quema calorías y mejora tu resistencia con nuestros entrenamientos de alta intensidad. No apto para los débiles de corazón.</p>
+                <p><strong>Horario:</strong> Martes y Jueves - 7:00 PM a 8:00 PM</p>
+                <img src="src/assets/images/hiit-class.jpg" alt="Clase de HIIT en PowerZone">
+            </div>
+
+            <!-- Tarjeta con Clase 3 -->
+
+            <div class="clase">
+                <h2>Spinning</h2>
+                <p>Pedalea hacia tus objetivos con nuestras clases de Spinning. ¡Prepárate para sudar!</p>
+                <p><strong>Horario:</strong> Lunes, Miércoles y Sábados - 6:00 PM a 7:00 PM</p>
+                <img src="src/assets/images/spinning-class.jpg" alt="Clase de Spinning en PowerZone">
+            </div>
+
+            <!-- Tarjeta con Clase 4 -->
+
+            <div class="clase">
+                <h2>Pilates</h2>
+                <p>Mejora tu flexibilidad y fortalece tus músculos con nuestras clases de Pilates. Perfecto para todos los niveles.</p>
+                <p><strong>Horario:</strong> Martes y Jueves - 8:30 AM a 10:00 AM</p>
+                <img src="src/assets/images/pilates-class.jpg" alt="Clase de Pilates en PowerZone">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo-footer">
+                <img src="src/assets/images/logo.png" alt="Logo de PowerZone">
+            </div>
+            <div class="contact-info">
+                <p>Síguenos en nuestras redes sociales:</p>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+                <p>Teléfono: +123 456 7890</p>
+                <p>Dirección: Calle Ejemplo 123, Ciudad Ficticia</p>
+            </div>
+        </div>
+        <p>&copy; 2024 PowerZone. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
